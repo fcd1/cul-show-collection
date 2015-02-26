@@ -1006,10 +1006,6 @@ padding: 0.5em 0.5em 0.5em 0.5em;
     background: #ffffff;
 }
 
-.brown .cul-general-content-td {
-    border-left: 1px solid #c7b5a2;
-}
-
 .brown .exhibit-page-nav a,
 .brown .exhibit-page-nav li.current a {
     color: #77403e;
@@ -1531,6 +1527,13 @@ body.burgundy {
   padding-bottom: 1em;
 }
 
+.cul-show-collection-banner img {
+    width: 100%;
+}
+
+/* fcd1, 02/17/15: */
+/* END of changes for show collection items only */
+
 /* fcd1, 02/20/15: */
 /* START of additions for mejs-controls (mediaelement.js) */
 
@@ -1632,5 +1635,6 @@ background: -ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));
 background: linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8));
 width: 0;
 }
-/* fcd1, 02/17/15: */
-/* END of changes for show collection items only */
+
+/* fcd1, 02/20/15: */
+/* END of additions for mejs-controls (mediaelement.js) */

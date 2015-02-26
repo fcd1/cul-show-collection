@@ -32,11 +32,11 @@
 
       <div id="primary">
 
-        <div class="cul-general-solid-block">
+        <div class="cul-show-collection-banner">
            <?php
              echo cul_theme_logo(metadata('exhibit','title'));
            ?>
-        </div><!--end id="cul-general-solid-block"-->
+        </div><!--end id="cul-show-collection-banner"-->
 
         <?php if ($exhibitDescription = metadata('exhibit', 'description', array('no_escape' => true))): ?>
                 <div class="exhibit-description">
