@@ -1,5 +1,5 @@
 <?php echo head(array('title' => metadata('exhibit', 'title'),
-		      'bodyclass'=>'exhibits summary')); 
+		      'bodyclass'=>'exhibits summary cul-show-collection')); 
 ?>
 
 <?php 
@@ -12,16 +12,14 @@
   // all three pages (summary.php, show.php, and item.php)
 ?>
 
-<h1 class="head">
-  <span class="keycolor" style="height:30px;min-width:30px;display:inline">
-    &nbsp;
-  </span>
-  &nbsp;
-  <?php
-    $title = exhibit_builder_link_to_exhibit();
-    echo $title;
-  ?>
-</h1>
+<?php if (get_theme_option('Show Title')): ?>
+  <h1 class="head">
+    <?php
+      $title = exhibit_builder_link_to_exhibit();
+      echo $title;
+    ?>
+  </h1>
+<?php endif; ?>
 
 <?
   $color_scheme = get_theme_option('Color Scheme');

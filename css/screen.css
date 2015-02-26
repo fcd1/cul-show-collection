@@ -40,13 +40,14 @@ h1 {
     color:#77403e;
 }
 
-h1.head {
+.cul-show-collection h1.head {
     font-family:"Trebuchet MS";
     font-size:22px;
     padding:10px;
     background-color:#000;
     border-bottom:5px solid #ccc;
     color:#fff;
+    text-align: center;
 }
 
 h1.head a {
